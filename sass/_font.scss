@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Montserrat-Light';
+
+  src: url('/css/font/Montserrat-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin light {
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+
+  src: url('/css/font/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin regular {
+  font-family: 'Montserrat-Regular', sans-serif;
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+
+  src: url('/css/font/Montserrat-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin medium {
+  font-family: 'Montserrat-Medium', sans-serif;
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+
+  src: url('/css/font/Montserrat-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin bold {
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+:root {
+  --theme-color-base: #fff;
+  --mq-size-sm: 576px;
+  --mq-size-md: 768px;
+  --mq-size-lg: 992px;
+  --mq-size-xl: 1200px;
+}
+

@@ -1,0 +1,395 @@
+body
+  background: #FCFCFC
+.container
+  --container-width: 100%
+  width: var(--container-width)
+  margin: 0 auto
+  padding: 0 15px
+
+@media (min-width: 576px)
+  .container
+    --container-width: var(--mq-size-sm)
+    .navigation
+      display: block
+      &__item
+        margin: 30px 15px 30px 15px
+      &__link
+        font-size: 12px
+
+    .menu__btn
+      display: none
+
+    .pres
+      .info
+        width: 50%
+        &__subtitle
+          font-size: 13px
+          margin-bottom: 20px
+        &__title
+          font-size: 24px
+        &__text
+          margin: 15px 0px 20px 0px
+          font-size: 12px
+        &__btn
+          padding: 11px 16px 11px 15px
+          font-size: 12px
+          line-height: 1.7
+          &--small
+            top: -1px
+            width: 28px
+            height: 26px
+
+    .cards
+      &__subtitle
+        font-size: 11px
+      &__title
+        font-size: 22px
+        margin-bottom: 20px
+
+    .handmade
+      &__wrap
+        width: 100%
+        flex-direction: row
+        .imge
+          width: 50%
+        .info
+          width: 50%
+          margin-left: 20px
+          &__title
+            font-size: 22px
+          &__btn
+            padding: 11px 16px 11px 15px
+            font-size: 12px
+            line-height: 1.7
+          &--small
+            top: -1px
+            width: 28px
+            height: 26px
+
+    .the-best
+      &__wrap
+        width: 100%
+        flex-direction: row
+        .imge
+          width: 50%
+        .info
+          width: 50%
+          margin-left: 20px
+          &__title
+            font-size: 22px
+          &__btn
+            padding: 11px 16px 11px 15px
+            font-size: 12px
+            line-height: 1.7
+          &--small
+            top: -1px
+            width: 28px
+            height: 26px
+
+    .review
+      &__wrap
+        width: 100%
+        flex-direction: row
+        .imge
+          width: 50%
+        .info
+          width: 50%
+          margin-left: 20px
+          &__title
+            font-size: 22px
+          &__name
+            font-size: 18px
+          &__adds
+            font-size: 10px
+
+    .letter-email
+      &__wrap
+        flex-direction: row
+        margin-bottom: 50px
+
+        .imge
+          width: 30%
+
+        .info
+          width: 70%
+          &__title
+            font-size: 22px
+
+          .form-wrap
+            &__email
+              font-size: 13px
+              &::placeholder
+                font-size: 13px
+            &__btn
+              padding: 5px 7px
+              font-size: 13px
+              &--small
+                top: 0px
+                width: 28px
+                height: 26px
+
+    .foot
+      &__wrap
+        flex-direction: row
+        flex-wrap: wrap
+        align-items: flex-start
+        justify-content: space-around
+
+        .info
+          &__logo-min
+            &--img
+          &__adds
+
+        .soc-links
+          &__title
+
+          &__link
+          &-icon
+            &--color
+
+            &:hover
+              .soc-links
+                &__link
+                  &-icon
+                    &--color
+
+        .sitebar
+          &__title
+          &__link
+
+@media (min-width: 768px)
+  .container
+    --container-width: var(--mq-size-md)
+    .navigation
+      &__item
+        margin: 30px 15px 30px 15px
+      &__link
+        font-size: 15px
+
+    .pres
+      .info
+        margin-top: 25px
+        &__subtitle
+          font-size: 17px
+        &__title
+          font-size: 33px
+        &__text
+          margin: 20px 0px 30px 0px
+          font-size: 15px
+        &__btn
+          padding: 11px 16px 11px 15px
+          font-size: 15px
+          &--small
+            top: -1px
+            width: 28px
+            height: 26px
+
+      .cards
+        &__subtitle
+          font-size: 15px
+        &__title
+          font-size: 31px
+          margin-bottom: 30px
+
+    .handmade
+      &__wrap
+        .info
+          margin-left: 40px
+          &__title
+            font-size: 31px
+          &__btn
+            padding: 11px 16px 11px 15px
+            font-size: 15px
+            &--small
+              top: -1px
+              width: 28px
+              height: 26px
+
+    .the-best
+      &__wrap
+        .info
+          margin-left: 40px
+          &__title
+            font-size: 31px
+          &__btn
+            padding: 11px 16px 11px 15px
+            font-size: 15px
+            &--small
+              top: -1px
+              width: 28px
+              height: 26px
+
+    .review
+      &__wrap
+        .info
+          margin-left: 40px
+          &__title
+            font-size: 31px
+
+    .foot
+      &__wrap
+
+        .info
+          &__adds
+            font-size: 13px
+
+        .soc-links
+          &__title
+            font-size: 13px
+
+        .sitebar
+          &__title
+            font-size: 15px
+          &__link
+            font-size: 13px
+
+@media (min-width: 992px)
+  .container
+    --container-width: var(--mq-size-lg)
+    &__item
+      margin: 30px 15px 30px 20px
+      &__link
+        font-size: 18px
+
+    .info
+      &__subtitle
+        font-size: 22px
+        margin-bottom: 20px
+      &__title
+        font-size: 44px
+      &__text
+        margin: 25px 0px 40px 0px
+        font-size: 18px
+
+    .cards
+      &__subtitle
+        font-size: 18px
+      &__title
+        font-size: 42px
+        margin-bottom: 40px
+
+    .card
+      margin: 10px 10% 57px 10%
+
+    .handmade
+      &__wrap
+        margin-top: 100px
+        .info
+          margin-left: 50px
+          &__title
+            font-size: 42px
+
+    .the-best
+      &__wrap
+        margin-top: 100px
+        .info
+          margin-left: 50px
+          &__title
+            font-size: 42px
+
+    .review
+      &__wrap
+        margin-top: 100px
+        .info
+          margin-left: 50px
+          &__title
+            font-size: 40px
+          &__name
+            font-size: 26px
+          &__adds
+            font-size: 14px
+
+    .letter-email
+      &__wrap
+
+        .info
+          &__title
+            font-size: 40px
+
+          .form-wrap
+            &__email
+              font-size: 16px
+              &::placeholder
+                font-size: 16px
+            &__btn
+              font-size: 16px
+              &--small
+                top: 0px
+                width: 28px
+                height: 26px
+
+    .foot
+      padding-top: 50px
+      &__wrap
+
+        .info
+          &__adds
+            font-size: 20px
+
+        .soc-links
+          &__title
+            font-size: 20px
+
+        .sitebar
+          &__title
+            font-size: 24px
+          &__link
+            font-size: 20px
+
+@media (min-width: 1200px)
+  .container
+    --container-width: var(--mq-size-xl)
+    .navigation
+      &__item
+        margin: 30px 15px 30px 40px
+      &__link
+        font-size: 20px
+
+    .cards
+      &__subtitle
+        font-size: 26px
+      &__title
+        font-size: 52px
+        margin-bottom: 58px
+    .card
+      margin: 10px 10px 57px 10px
+
+    .handmade
+      &__wrap
+        .info
+          margin-left: 70px
+          &__title
+            font-size: 52px
+
+    .the-best
+      &__wrap
+        .info
+          margin-left: 70px
+          &__title
+            font-size: 52px
+
+    .review
+      &__wrap
+        .info
+          margin-left: 70px
+          &__title
+            font-size: 50px
+
+    .letter-email
+      &__wrap
+
+        .info
+          &__title
+            font-size: 50px
+
+          .form-wrap
+            &__email
+              font-size: 20px
+              &::placeholder
+                font-size: 20px
+            &__btn
+              font-size: 20px
+              &--small
+                top: 0px
+                width: 30px
+                height: 28px
